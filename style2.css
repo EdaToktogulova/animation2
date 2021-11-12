@@ -16,7 +16,7 @@ div{
 
     animation: move;
     animation-duration: 1s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 }
 @keyframes move {
     0% {
