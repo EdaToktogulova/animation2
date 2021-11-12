@@ -1,0 +1,67 @@
+div {
+    padding: 10px;
+    background-color: tomato;
+    color: white;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+html {
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px ;
+
+    height: 100%;
+    margin: 30px;
+
+    transform: transform 1s ease-in-out;
+}
+div:nth-child(1):hover{
+    transform: skewX(-30deg);
+}
+div:nth-child(2):hover{
+    transform: skewY(30deg);
+}
+div:nth-child(3):hover{
+    transform: skewY(20deg 20deg);
+}
+div:nth-child(4):hover{
+    transform: translateX(-10%);
+}
+div:nth-child(5):hover{
+    transform: translateY(-10px);
+}
+div:nth-child(6):hover{
+    transform: translateZ(30%);
+}
+div:nth-child(7):hover{
+    transform: translate(-10px -10px);
+}
+div:nth-child(8):hover{
+    transform: rotateX(50deg);
+}
+div:nth-child(9):hover{
+    transform: rotateY(50deg);
+}
+div:nth-child(10):hover{
+    transform: rotateZ(50deg);
+}
+div:nth-child(11):hover{
+    transform: rotate(50deg);
+}
+div:nth-child(12):hover{
+    transform: scaleX(2);
+}
+div:nth-child(13):hover{
+    transform: scaleY(2);
+}
+div:nth-child(14):hover{
+    transform: scaleZ(2);
+}
+div:nth-child(15):hover{
+    transform: scale(2, .5);
+}
