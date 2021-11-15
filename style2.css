@@ -19,7 +19,7 @@ div{
     animation-iteration-count: 1;
 }
 
-/* @keyframes move {
+@keyframes move {
     0% {
         left: 0;
         margin-left: 0;
@@ -47,8 +47,8 @@ div{
         top: 0;
         margin-top: 0;
     }
-} */
-@keyframes move {
+}
+/* @keyframes move {
     0% {
         transform: translateX(1000%);
     }
@@ -64,4 +64,4 @@ div{
     100% {
         transform: ;
     }
-}
+} */
